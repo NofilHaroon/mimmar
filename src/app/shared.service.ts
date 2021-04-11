@@ -8,8 +8,8 @@ import { Observable } from 'rxjs';
 })
 
 export class SharedService {
-// readonly APIUrl = "http://127.0.0.1:8000";
-readonly APIUrl = "https://mimmarbackend.herokuapp.com/";
+readonly APIUrl = "http://127.0.0.1:8000";
+// readonly APIUrl = "https://mimmarbackend.herokuapp.com/";
 readonly ThumbnailUrl = "http://127.0.0.1:8000/media/";
   
   constructor(private http:HttpClient) { }
